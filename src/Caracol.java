@@ -2,7 +2,7 @@ import java.util.concurrent.CountDownLatch;
 
 class Caracol extends Thread {
     final private int dorsal;
-    private CountDownLatch barreraSalida;
+    final private CountDownLatch barreraSalida;
 
     public Caracol(int dorsal, CountDownLatch barreraSalida) {
         this.dorsal = dorsal;
