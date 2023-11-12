@@ -1,7 +1,7 @@
 import java.util.concurrent.CountDownLatch;
 
 class Caracol extends Thread {
-    private int dorsal;
+    final private int dorsal;
     private CountDownLatch barreraSalida;
 
     public Caracol(int dorsal, CountDownLatch barreraSalida) {
